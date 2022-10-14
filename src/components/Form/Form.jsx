@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Input, Box, Flex, useColorMode, Button, VStack } from '@chakra-ui/react';
-import getSummonerData from '../RiotApi/RiotApi';
+import getSummonerData from '../../../RiotApi';
 function Form() {
     const { colorMode } = useColorMode()
     const inputEl = useRef(null)
